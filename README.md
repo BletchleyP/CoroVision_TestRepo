@@ -1,2 +1,2 @@
 # CoroVision_TestRepo
-Just a test repository
+This is just a test repository. Play around and have fun!
