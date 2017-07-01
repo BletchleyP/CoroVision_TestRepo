@@ -43,6 +43,7 @@ ui <- fluidPage(
     }
     #fileCounter {
       display: inline;
+      color: red;
       margin: 10px;
     }"
   ))),
