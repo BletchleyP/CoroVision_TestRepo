@@ -106,6 +106,8 @@ server <- function(input, output, session) {
     if (is.null(inFile))
       return(NULL)
     paste("File name 2:", inFile$name)
+    #Test-Kommentar
+    # 2. Test-Kommentar
   })
   
   output$fileCounter <- renderText({
