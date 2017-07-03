@@ -1,5 +1,10 @@
 library(shiny)
 
+# Modifikation des Beispieldatensatzes mit deutschen Headern
+# ----------------------------------------------------------
+viewportDF <- iris
+colnames(viewportDF) <- c("Sepal-L\xe4nge", "Sepal-Breite", "Petal-L\xe4nge", "Petal-Breite", "Spezies")
+
 # Modifizierter fileInput
 # -----------------------
 fileInput2 <- function(inputId, label = NULL, labelIcon = NULL, multiple = FALSE, 
